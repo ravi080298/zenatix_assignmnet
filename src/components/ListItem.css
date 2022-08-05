@@ -1,0 +1,19 @@
+.ItemConatiner {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.conatiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
